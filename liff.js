@@ -2,7 +2,7 @@
 //<!--https://github.com/anoken/purin_wo_mimamoru_gijutsu-->
 
 // User service UUID: Change this to your generated service UUID
-const USER_SERVICE_UUID         = '7d4bb280-6c3c-4335-aadc-88765ca63482'; // LED, Button
+const USER_SERVICE_UUID         = '35853255-1a3f-49ac-aa3b-5a6a3703eb9f'; // LED, Button
 // User service characteristics
 const LED_CHARACTERISTIC_UUID   = 'E9062E71-9E62-4BC6-B0D3-35CDCD9B027B';
 const BTN_CHARACTERISTIC_UUID   = '62FBD229-6EDD-4D1A-B554-5C4E1BB29169';
