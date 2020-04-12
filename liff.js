@@ -1,8 +1,8 @@
-//<!--Copyright (c) 2019 aNoŒ¤ ƒvƒŠƒ“‚ðŒ©Žç‚é‹Zp-->
+//<!--Copyright (c) 2019 aNoç ” ãƒ—ãƒªãƒ³ã‚’è¦‹å®ˆã‚‹æŠ€è¡“-->
 //<!--https://github.com/anoken/purin_wo_mimamoru_gijutsu-->
 
 // User service UUID: Change this to your generated service UUID
-const USER_SERVICE_UUID         = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // LED, Button
+const USER_SERVICE_UUID         = 'e625601e-9e55-4597-a598-76018a0d293d'; // LED, Button
 // User service characteristics
 const LED_CHARACTERISTIC_UUID   = 'E9062E71-9E62-4BC6-B0D3-35CDCD9B027B';
 const BTN_CHARACTERISTIC_UUID   = '62FBD229-6EDD-4D1A-B554-5C4E1BB29169';
@@ -263,7 +263,7 @@ function liffGetButtonStateCharacteristic(characteristic) {
 }
 
 function liffToggleDeviceLedState(state) {
-   var item = new Uint8Array([state]) ; //ƒOƒ[ƒoƒ‹•Ï”
+   var item = new Uint8Array([state]) ; //ã‚°ãƒ­ãƒ¼ãƒãƒ«å¤‰æ•°
     window.ledCharacteristic.writeValue(item).catch(error => {
         uiStatusError(makeErrorMsg(error), false);
     });
